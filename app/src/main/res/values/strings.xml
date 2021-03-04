@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name1">Assignment GD2</string>
+    <string name="title_home">Trang chính</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="chucnang_name">Chức năng</string>
+    <string name="chucnang1_name">Giới thiệu</string>
+    <string name="chi_name">Khoản Chi</string>
+    <string name="thu_name">Khoản Thu</string>
+    <string name="thongke_name">Thống Kê</string>
+    <string name="gioithieu_name">Giới Thiệu</string>
+    <string name="thoat_name">Thoát</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="loaichi_name">Loại Chi</string>
+    <string name="noidung_name">Nội Dung</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="rss_text">https://vnexpress.net/rss/tin-moi-nhat.rss</string>
+    <string name="rss_trangthai" />
+    <string name="rss_taitrang">Download</string>
+
+    <string name="title_activity_web">webActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_name">Maps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="kh">Khóa học</string>
+    <string name="máp">Bản đồ</string>
+    <string name="gd">Tin Tức</string>
+    <string name="mxh">Mạng xã hội</string>
+    <string name="exit">Exit</string>
+
+</resources>

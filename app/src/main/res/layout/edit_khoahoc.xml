@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#FFE597"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/edtTenKhoahoc"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Tên Khóa Học"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:background="@drawable/border_button_forgot_pass"
+            android:textColorHint="#80000000" />
+
+        <EditText
+            android:id="@+id/edtSoBuoiHoc"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="58dp"
+            android:hint="Số buổi học"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:background="@drawable/border_button_forgot_pass"
+            android:textColorHint="#80000000" />
+
+        <EditText
+            android:id="@+id/edtTenGiangVien"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="10dp"
+            android:hint="Tên Giảng viên"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:background="@drawable/border_button_forgot_pass"
+            android:textColorHint="#80000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dateBatdau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:src="@drawable/ic_calendar" />
+
+            <TextView
+                android:id="@+id/tvNgaybatdau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Ngày bắt đầu"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dateKetthuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:src="@drawable/ic_calendar" />
+
+            <TextView
+                android:id="@+id/tvNgayKetthuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Ngày kết thúc"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dateThi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:src="@drawable/ic_calendar" />
+
+            <TextView
+                android:id="@+id/tvNgaythi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Ngày thi"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_khoahoc"
+            android:icon="@drawable/ic_category"
+            android:title="@string/kh" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_map"
+            android:title="@string/máp" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_accessibility_new"
+            android:title="@string/gd" />
+        <item android:title="@string/chucnang1_name">
+            <menu>
+                <item
+                    android:id="@+id/nav_gioithieu"
+                    android:icon="@drawable/ic_info"
+                    android:title="@string/mxh" />
+                <item
+                    android:id="@+id/nav_thoat"
+                    android:icon="@drawable/ic_exit_to_app"
+                    android:title="@string/thoat_name" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
